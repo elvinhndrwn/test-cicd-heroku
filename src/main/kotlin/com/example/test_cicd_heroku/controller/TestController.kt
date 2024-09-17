@@ -10,5 +10,5 @@ import org.springframework.web.bind.annotation.RestController
 class TestController {
 
     @GetMapping("/test")
-    fun test() : ResponseEntity<String> = ResponseEntity.ok("success build")
+    fun test() : ResponseEntity<String> = ResponseEntity.ok("success")
 }
